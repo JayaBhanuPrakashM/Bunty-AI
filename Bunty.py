@@ -108,9 +108,7 @@ def respond(voice_data):
     elif 'what is your name' in voice_data:
         reply('Bunty! Thanks for Asking')
 
-    elif 'what is GDSC' in voice_data or 'what is gdse' in voice_data or 'what is gdc' in voice_data:
-        reply ('GDSC before that you have know what is GDSC.....and what is the full form if GDSC.......basically GDSC is Google Developer Student Club.....befor that you have to what is google......what is the spelling of google..........G....O.....O.....G.....L......E... this is the spelling of the google and you have to learn from alphabets....before that you have to what is what.....how it was used ask 2 point o')    
-
+   
     elif 'who is your boss' in voice_data:
         reply('Mr. Jaya Bhanu Prakash M')  
         
@@ -120,8 +118,6 @@ def respond(voice_data):
     elif 'when was your birthdate' in voice_data:
         reply('April 20, 2022')
 
-    elif 'naa anaveshana' in voice_data:
-        reply('bagunanaraaaaaaaaaaaaaaaaaa....................bagunaraaaaaaaaaaa...........chavakaaaaaaaaaaaaaaaa........chavakaaaaaaaaaaaaaaaaa...........anniiiiiiii............chavakaaaaaaaaaaaaaaaaaaaaaaaaaaa...........meeee prapanchaaaaa....yatrikuduuuuuuuuuuuuu.............byeee.....byeee....')     
 
     elif 'prepare ppt for machine learning' in voice_data:
           pyautogui.press('win')
@@ -351,16 +347,6 @@ def respond(voice_data):
         time.sleep(2)
         pyautogui.press('enter')
         reply('message done')
-
-    elif 'how to kill you'in voice_data:
-        pyautogui.press('win')
-        time.sleep(1)
-        pyautogui.write('notepad')
-        time.sleep(1)
-        pyautogui.press('enter')
-        time.sleep(1)
-        pyautogui.write('Fuck Off you bitch..........')
-        reply('Fuck Off you bitch..........')
 
     elif 'copy' in voice_data:
         with keyboard.pressed(Key.ctrl):
